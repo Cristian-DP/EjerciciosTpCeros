@@ -17,9 +17,7 @@
 ## Indice
 - Enunciado
 - Desarrollo
-  - Primera parte
-  - Segunda parte
-  - Tercera parte
+  - Ejercicios de creación y actualización de repositorios
 
 ## Enunciado
 Para el objetivo 3 deberán realizar las actividades de este sitio: https://aprendeconalf.es/docencia/git/ejercicios/creacion-actualizacion-repositorios/
