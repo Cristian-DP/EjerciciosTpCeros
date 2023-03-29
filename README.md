@@ -36,7 +36,7 @@ Para el objetivo 3 deberán realizar las actividades de este sitio: https://apre
     2. Hacer un commit con el mensaje “Añadido capítulo 4.”
     3. Mostrar la historia del repositorio incluyendo todas las ramas.
    
-   ![punto 2](images/2_0.png)
+   ![Punto 2](images/2_0.png)
 
 3.  1. Cambiar a la rama bibliografia.
     1. Crear el fichero bibliografia.txt y añadir la siguiente referencia
