@@ -17,49 +17,51 @@
 ## Indice
 - Enunciado
 - Desarrollo
-  - Ejercicios de manejo del historial de cambios
+  - Ejercicios de deshacer cambios
 
 ## Enunciado
 Para el objetivo 3 deberán realizar las actividades de este sitio: https://aprendeconalf.es/docencia/git/ejercicios/creacion-actualizacion-repositorios/
 
 ## Desarrollo
 
-### Ejercicios de manejo del historial de cambios
+### Ejercicios de deshacer cambios
 
-1. 1. Mostrar el historial de cambios del repositorio.
-   2. Crear la carpeta capitulos y crear dentro de ella el fichero capitulo1.txt con el siguiente texto.
-        Git es un sistema de control de versiones ideado por Linus Torvalds
-   3. Añadir los cambios a la zona de intercambio temporal.
-   4. Hacer un commit de los cambios con el mensaje “Añadido capítulo 1"
-   5. Volver a mostrar el historial de cambios del repositorio.
+1. 1. Eliminar la última línea del fichero indice.txt y guardarlo.
+   2. Comprobar el estado del repositorio.
+   3. Deshacer los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero.
+   4. Volver a comprobar el estado del repositorio.
  
    ![Punto 1_0](images/1_0.png)
-   ![punto 1_1](images/1_1.png)
-   ![punto 1_2](images/1_2.png)
 
-2. 1. Crear el fichero capitulo2.txt en la carpeta capitulos con el siguiente texto.
-        El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios.
-    2. Añadir los cambios a la zona de intercambio temporal.
-    3. Hacer un commit de los cambios con el mensaje “Añadido capítulo 2.”
-    4. Mostrar las diferencias entre la última versión y dos versiones anteriores.
+2.  1. Eliminar la última línea del fichero indice.txt y guardarlo.
+    1. Añadir los cambios a la zona de intercambio temporal.
+    2. Comprobar de nuevo el estado del repositorio.
+    3. Quitar los cambios de la zona de intercambio temporal, pero mantenerlos en el directorio de trabajo.
+    4. Comprobar de nuevo el estado del repositorio.
+    5. Deshacer los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero.
+    6. Volver a comprobar el estado del repositorio.
    
    ![punto 2](images/2_1.png)
 
-3. 1. Crear el fichero capitulo3.txt en la carpeta capitulos con el siguiente texto.
-        Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas.
-    2. Añadir los cambios a la zona de intercambio temporal.
-    3. Hacer un commit de los cambios con el mensaje “Añadido capítulo 3.”
-    4. Mostrar las diferencias entre la primera y la última versión del repositorio.
+3. 1. Eliminar la última línea del fichero indice.txt y guardarlo.
+   1. Eliminar el fichero capitulos/capitulo3.txt.
+   2. Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Borrado accidental.”
+   3. Comprobar el historial del repositorio.
+   4. Deshacer el último commit pero mantener los cambios anteriores en el directorio de trabajo y la zona de intercambio temporal.
+   5. Comprobar el historial y el estado del repositorio.
+   6. Volver a hacer el commit con el mismo mensaje de antes.
+   7. Deshacer el último commit y los cambios anteriores del directorio de trabajo volviendo a la versión anterior del repositorio.
+   8. Comprobar de nuevo el historial y el estado del repositorio.
    
-   ![Punto 3_1](images/3_1.png)
-   ![Punto 3_2](images/3_2.png)
-
-4.  1. Añadir al final del fichero indice.txt la siguiente línea:
-        Capítulo 5: Conceptos avanzados
-    2. Añadir los cambios a la zona de intercambio temporal.
-    3. Hacer un commit de los cambios con el mensaje “Añadido capítulo 5 al índice.”.
-    4. Mostrar quién ha hecho cambios sobre el fichero indice.txt.
+4. 1. Eliminar la última línea del fichero indice.txt y guardarlo.
+   1. Eliminar el fichero capitulos/capitulo3.txt.
+   2. Añadir un fichero nuevo captitulos/capitulo4.txt vacío.
+   3. Añadir los cambios a la zona de intercambio temporal.
+   4. Comprobar de nuevo el estado del repositorio.
+   5. Quitar los cambios de la zona de intercambio temporal, pero mantenerlos en el directorio de trabajo.
+   6. Comprobar de nuevo el estado del repositorio.
+   7. Deshacer los cambios realizados para volver a la versión del repositorio.
+   8. Volver a comprobar el estado del repositorio.
    
     ![Punto 4_1](images/4_1.png)
 
-    
