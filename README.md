@@ -54,7 +54,7 @@ Para el objetivo 3 deberán realizar las actividades de este sitio: https://apre
    
     ![Punto 4_1](images/4_1.png)
     ![Punto 4_2](images/4_2.png)
-
+    
 5.  1. Crear la rama bibliografia.
     1. Cambiar a la rama bibliografia.
     2. Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias:
@@ -76,3 +76,4 @@ Para el objetivo 3 deberán realizar las actividades de este sitio: https://apre
    
     ![Punto 5_1](images/4_1.png)
     ![Punto 5_2](images/4_2.png)
+
