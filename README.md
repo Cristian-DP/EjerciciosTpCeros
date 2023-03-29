@@ -61,5 +61,3 @@ Para el objetivo 3 deberán realizar las actividades de este sitio: https://apre
     4. Mostrar quién ha hecho cambios sobre el fichero indice.txt.
    
     ![Punto 4_1](images/4_1.png)
-
-    
